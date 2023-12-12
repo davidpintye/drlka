@@ -1,0 +1,46 @@
+<!-- <mat-toolbar>
+  <div class="container">
+    <div class="logo-text">
+      <span class="first-line">Dr. Adam Lovas-Kiss</span>
+    </div>
+    <div *ngIf="isLargeScreen" class="links">
+      <a href="/home">Home</a>
+      <a href="/cv">CV</a>
+      <a href="/research">Research</a>
+      <a href="publist">Publication list</a>
+      <a href="/dissemination">Dissemination</a>
+      <a href="/contact">Contact</a>
+    </div>
+    <button *ngIf="!isLargeScreen" mat-icon-button class="icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+</mat-toolbar> -->
+<mat-toolbar  [ngStyle]="{backgroundColor: '#616324'}">
+  <mat-toolbar-row [ngStyle]="{height: '30px', backgroundColor: '#2c4b5f'}">
+    <div class="logo-text">
+      Dr. Adam Lovas-Kiss
+    </div>
+  </mat-toolbar-row>
+  <mat-toolbar-row [ngStyle]="{height: '45px', backgroundColor: '#616324', justifyContent: 'right'}">
+    <div *ngIf="isLargeScreen" class="links">
+      <a routerLink="home">Home</a>
+      <a routerLink="cv">CV</a>
+      <!-- <a routerLink="research">Research</a> -->
+      <a routerLink="pub-list">Publication list</a>
+      <!-- <a routerLink="dissemination">Dissemination</a> -->
+      <a routerLink="contact">Contact</a>
+    </div>
+    <button *ngIf="!isLargeScreen" [matMenuTriggerFor]="menu" mat-icon-button>
+      <mat-icon>menu</mat-icon>
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-menu #menu="matMenu">
+  <a mat-menu-item routerLink="home">Home</a>
+  <a mat-menu-item routerLink="cv">CV</a>
+  <!-- <a routerLink="research">Research</a> -->
+  <a mat-menu-item routerLink="pub-list">Publication list</a>
+  <!-- <a routerLink="dissemination">Dissemination</a> -->
+  <a mat-menu-item routerLink="contact">Contact</a>
+</mat-menu>

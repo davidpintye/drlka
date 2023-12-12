@@ -1,0 +1,164 @@
+<div class="container">
+    <div class="sheets">
+        <div class="header">
+            <div class="head-container">
+                <img src="../../assets/profile_pics.png" alt="profile-pic" class="profile-pic">
+                <div id="name">Dr. Lovas-Kiss Ádám <br> Research Fellow</div>
+            </div>
+            <ul>
+                <li>
+                    <mat-icon>cake</mat-icon>
+                    <span>1991. February 24.Debrecen, Hajdu-Bihar county, Hungary</span>
+                </li>
+                <li>
+                    <mat-icon>mail</mat-icon>
+                    <span>
+                        <a href="mailto: epipactispalustris@gmail.com">epipactispalustris@gmail.com</a>, <a
+                            href="mailto: lovas-kiss.adam@ecolres.hu">lovas-kiss.adam@ecolres.hu</a>
+                    </span>
+                </li>
+                <!-- </ul>
+                <ul> -->
+                <li>
+                    <mat-icon>location_on</mat-icon>
+                    <span>
+                        <a href="https://maps.app.goo.gl/GQv3mLLRynB68nJG8">
+                            Wetland Ecology Research Group, Institute of Aquatic Ecology,<br>Centre for Ecological
+                            Research,
+                            H-4026,
+                            Debrecen, Bem sq. 18/C
+                        </a>
+                    </span>
+                </li>
+                <li>
+                    <mat-icon>phone</mat-icon>
+                    <span><a href="tel:+36303589501">+36 30 358 95 01</a></span>
+                </li>
+                <li>
+                    <mat-icon>web</mat-icon>
+                    <span><a href="https://www.researchgate.net/profile/Adam-Lovas-Kiss"
+                            target="_blank">www.researchgate.net/profile/Adam_Lovas-Kiss</a><br><a
+                            href="https://ecolres.hu/en/munkatarsak/adam-lovas-kiss/"
+                            target="_blank">www.ecolres.hu/en/adam-lovas-kiss/</a></span>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+
+            <h2>Curriculum</h2>
+            <hr>
+            <ul>
+                <li *ngFor="let curriculum of curriculums">
+                    <div class="years">{{curriculum.startDate}} - {{curriculum.endDate}}</div>
+                    <div class="str">{{curriculum.str}}</div>
+                </li>
+            </ul>
+
+            <h2>Winning Proposals</h2>
+            <hr>
+            <ul>
+                <li *ngFor="let winningProp of winningProps">
+                    <div class="years">{{winningProp.startDate}} - {{winningProp.endDate}}</div>
+                    <div class="str">{{winningProp.str}}</div>
+                </li>
+            </ul>
+
+            <h2>Scholarships, Awards, Recognitions</h2>
+            <hr>
+            <ul>
+                <li *ngFor="let schAwRc of schAwRcs">- {{schAwRc}}</li>
+            </ul>
+            <!-- <div class="page"><div class="page-number">page 1</div></div> -->
+        </div>
+    </div>
+</div>
+<div class="container">
+
+    <div class="sheets">
+        <div class="content">
+
+            <h2>Research Trips</h2>
+            <hr>
+            <ul>
+                <li *ngFor="let trip of researchTrips">
+                    <div class="years" [ngStyle]="{lineHeight: '1rem', padding: '6px 0'}">
+                        {{trip.startDate}}<br><span [ngStyle]="{marginRight: '10mm'}">-</span><br>{{trip.endDate}}</div>
+                    <div class="str">{{trip.str}}</div>
+                </li>
+            </ul>
+
+            <h2>Educational activities</h2>
+            <hr>
+            <ul>
+                <li *ngFor="let eduAct of eduActivities">
+                    <div class="years" [ngStyle]="{textAlign: 'right'}">{{eduAct.startDate}}<span
+                            *ngIf="eduAct.endDate"> -
+                            {{eduAct.endDate}}</span></div>
+                    <div class="str">{{eduAct.str}}</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="sheets">
+        <div class="content">
+            <h2>Thesis Supervisor activity</h2>
+            <hr>
+            <ul>
+                <li *ngFor="let tSA of tSAs">
+                    <div class="years" [ngStyle]="{textAlign: 'right'}">
+                        {{tSA.startDate}}-{{tSA.endDate}}</div>
+                    <div class="str">{{tSA.str}}</div>
+                </li>
+            </ul>
+
+            <h2>Professional activity</h2>
+            <hr>
+            <h4>Refereeing activities:</h4>
+            <div class="profActs">
+                <ul>
+                    <li *ngFor="let refAct of refActs.slice(0,12)">
+                        <div class="years" [ngStyle]="{textAlign: 'center', width: 'fit-content', minWidth: 'auto'}">
+                            {{refAct.startDate}}</div>
+                        <div class="str">{{refAct.str}}</div>
+                    </li>
+                </ul>
+                <ul>
+                    <li *ngFor="let refAct of refActs.slice(12)">
+                        <div class="years" [ngStyle]="{textAlign: 'center', width: 'fit-content', minWidth: 'auto'}">
+                            {{refAct.startDate}}</div>
+                        <div class="str">{{refAct.str}}</div>
+                    </li>
+                </ul>
+            </div>
+
+            <h4>Professional memberships:</h4>
+            <div class="profActs">
+                <ul>
+                    <li *ngFor="let refMem of refMems">
+                        <div class="years" [ngStyle]="{textAlign: 'center', width: 'fit-content', minWidth: 'auto'}">
+                            {{refMem.startDate}}</div>
+                        <div class="str">{{refMem.str}}</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="sheets">
+        <div class="content">
+            <h2>Personal skills</h2>
+            <hr>
+            <div id="perSkills">
+                <b>Languages:</b> hungarian, english, german <br>
+                <b>IT skills:</b> Microsoft Office, OpenOffice, LibreOffice, Microsoft Windows, R, GIS, Adobe
+                Illustrator<br>
+                <b>Drivers licence:</b> B category<br>
+                <b>Other studies:</b> Theory and practice of animal experimentation - B Course (2016.05.06. Certificate
+                number:
+                335/2016/DEMÁB)
+            </div>
+        </div>
+    </div>
+</div>

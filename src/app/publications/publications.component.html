@@ -1,0 +1,20 @@
+<div class="container">
+    <ul>
+        <li *ngFor="let year of yearArray">
+            <span class="year">{{year.year}}</span>
+            <hr>
+            <ul>
+                <li *ngFor="let publication of year.publications">
+                    <span *ngFor="let author of publication.authors, let i = index">
+                        {{author}}<span *ngIf="((publication.authors.length-1) !== i)">; </span>
+                    </span>
+                    <div class="title-journal">{{publication.title}} - {{publication.journal}}</div>
+                    <div class="bottom">
+                        ({{publication.pubYear}}) <span *ngIf="publication.DOI">DOI: <a [href]="'https://doi.org/' + publication.DOI">{{ publication.DOI }}</a></span>
+                    </div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+        <div [ngStyle]="{paddingBottom: '20px', textAlign: 'center', fontSize: '1.2rem'}">*shared first, last authorship</div>
+</div>

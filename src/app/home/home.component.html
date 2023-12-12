@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="img-container">
+        <app-images></app-images>
+        <div *ngIf="isBImage" [ngStyle]="{position: 'absolute', zIndex: '-1'}">
+            <app-images></app-images>
+        </div>
+    </div>
+    <div class="text-outer-container">
+        <div id="text-container">
+            <p>
+                Ecologist, studying the dispersal interactions mediated by waterbirds. I am interested in a wide range of
+                organisms dispersed by waterbirds, ranging from vascular plants to zooplankton (especially Bryozoans and
+                Porifera). I also study the dispersal of antibiotic-resistant bacteria. My work contributes to the complex
+                interactions in wetlands with the aim of understanding how climate change and human impacts affect these
+                important waterbird-mediated ecosystem services.
+            </p>
+            <p [ngStyle]="{textAlign: 'center'}">
+                If you are interested in collaborating, please do not hesitate to contact me!
+            </p>
+        </div>
+    </div>
+</div>

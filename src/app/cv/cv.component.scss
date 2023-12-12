@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    width: calc(100vw - 20px);
+    margin: auto;
+}
+
+.sheets {
+    margin: 20px auto;
+    background-color: white;
+    width: 210mm;
+    height: 297mm;
+    box-sizing: border-box;
+
+
+    .content {
+        padding: 5mm 10mm;
+
+
+        .page {
+            display: flex;
+            height: 100%;
+            flex: 1;
+
+            .page-number {
+                width: 100%;
+                text-align: center;
+                background-color: red;
+            }
+        }
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(79, 151, 127);
+    height: fit-content;
+    padding: 5px;
+    color: white;
+
+    .head-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 62mm;
+
+        #name {
+            font-size: 22px;
+            padding: 0 1rem;
+            text-align: center;
+        }
+
+        .profile-pic {
+            margin: 10px 0;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            border: solid rgba(255, 255, 255, 0.8) 3px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    ul {
+        // width: 70mm;
+        display: flex;
+        flex-direction: column;
+        max-width: 135mm;
+        list-style: none;
+        padding: 0 10mm 0 0;
+        margin: 0;
+        justify-content: space-around;
+
+        li {
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            width: fit-content;
+            padding: 5px;
+
+            span:first-of-type {
+                border-left: rgba(255, 255, 255, 0.4) solid 2px;
+                padding-left: 10px;
+                margin-left: 10px;
+            }
+
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+
+        }
+    }
+}
+
+
+
+h2 {
+    margin: 0 0 2mm 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+.profActs {
+    width: 100%;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+
+    li {
+        display: flex;
+        flex-direction: row;
+        margin: 4px;
+
+        .years {
+            color: rgb(71, 71, 71);
+            font-weight: 600;
+            min-width: 25mm;
+            text-align: right;
+        }
+
+        .str {
+            border-left: rgb(94, 177, 149) solid 2px;
+            padding-left: 10px;
+            margin-left: 10px;
+            width: 99%;
+        }
+    }
+}
+
+#perSkills {
+    margin-left: 5px;
+}

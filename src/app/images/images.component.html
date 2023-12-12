@@ -1,0 +1,10 @@
+<div class="images">
+    <ng-container *ngFor="let image of images, let i = index">
+        <img 
+            *ngIf="i === counter" 
+            [src]="image" alt=""
+            @imageAnimation
+            class="slide"
+        >
+    </ng-container>
+</div>

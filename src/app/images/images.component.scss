@@ -1,0 +1,29 @@
+.images {
+    position: relative;
+    overflow: hidden;
+    height: 65dvh;
+    width: 100%;
+
+    img {
+        height: 65dvh;
+        width: auto;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+}
+
+.slide {
+    width: 100%;
+}
+
+@media (max-width: 820px) {
+    .images {
+        width: 100vw;
+        height: 75vw;
+
+        img {
+            width: 100vw;
+            height: 75vw;
+        }
+    }
+}
