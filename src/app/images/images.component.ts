@@ -17,19 +17,19 @@ import { interval } from 'rxjs';
 })
 export class ImagesComponent implements OnInit{
   images: string[] = [
-    "../../assets/IMG_2863.png",
-    "../../assets/IMG_4651.png",
-    "../../assets/IMG_6474.png",
-    "../../assets/IMG_2925.png",
-    "../../assets/IMG_4682.png",
-    "../../assets/IMG_6485.png",
-    "../../assets/IMG_3414.png",
-    "../../assets/IMG_6115.png",
-    "../../assets/IMG_6515.png",
-    "../../assets/IMG_4312.png",
-    "../../assets/IMG_6318.png",   
-    "../../assets/IMG_4492.png",
-    "../../assets/IMG_6473.png",   
+    "assets/IMG_2863.png",
+    "assets/IMG_4651.png",
+    "assets/IMG_6474.png",
+    "assets/IMG_2925.png",
+    "assets/IMG_4682.png",
+    "assets/IMG_6485.png",
+    "assets/IMG_3414.png",
+    "assets/IMG_6115.png",
+    "assets/IMG_6515.png",
+    "assets/IMG_4312.png",
+    "assets/IMG_6318.png",   
+    "assets/IMG_4492.png",
+    "assets/IMG_6473.png",   
   ];
   counter: number;
   image: string;
