@@ -1,4 +1,4 @@
-import * as cvData from '../../assets/cv.json';
+import * as cvData from '../../jsons/cv.json';
 import { Component, OnInit } from '@angular/core';
 
 interface YearsStr {

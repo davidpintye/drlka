@@ -1,4 +1,4 @@
-import * as pubListArray from '../../assets/pub.json';
+import * as pubListArray from '../../jsons/pub.json';
 import { Component, OnInit } from '@angular/core';
 import { Publication } from '../classes/article';
 
