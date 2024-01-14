@@ -1,0 +1,17 @@
+<div class="container">
+    <div *ngFor="let aNews of news, let i = index" class="a-news">
+        <div class="a-news-wrapper" [ngClass]="aNews.isClose ? 'closed' : 'opened'">
+            <h2>{{aNews.title}}</h2>
+            <div class="date">{{aNews.date}}</div>
+            <img *ngIf="aNews.image" [src]="aNews.image" alt="news picture">
+            <p *ngFor="let paragraph of aNews.content">{{paragraph}}</p>
+            <div class="more-less">
+                <div *ngIf="aNews.isClose" class="linear"></div>
+                <div class="button-wrapper">
+                    <button mat-button (click)="aNews.isClose = !aNews.isClose">{{aNews.isClose ? "More" : "Less"}}</button>
+                </div>
+            </div>
+        </div>
+        <hr *ngIf="i != (news.length-1)">
+    </div>
+</div>

@@ -25,6 +25,7 @@
   <mat-toolbar-row [ngStyle]="{height: '45px', backgroundColor: '#616324', justifyContent: 'right'}">
     <div *ngIf="isLargeScreen" class="links">
       <a routerLink="home">Home</a>
+      <a routerLink="news">News</a>
       <a routerLink="cv">CV</a>
       <!-- <a routerLink="research">Research</a> -->
       <a routerLink="pub-list">Publication list</a>
@@ -38,6 +39,7 @@
 </mat-toolbar>
 <mat-menu #menu="matMenu">
   <a mat-menu-item routerLink="home">Home</a>
+  <a mat-menu-item routerLink="news">News</a>
   <a mat-menu-item routerLink="cv">CV</a>
   <!-- <a routerLink="research">Research</a> -->
   <a mat-menu-item routerLink="pub-list">Publication list</a>

@@ -5,10 +5,12 @@ import { CvComponent } from './cv/cv.component';
 import { ResearchComponent } from './research/research.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { ContactComponent } from './contact/contact.component';
+import { NewsComponent } from './news/news.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
   { path: 'home', component: HomeComponent },
+  { path: 'news', component: NewsComponent },
   { path: 'cv', component: CvComponent },
   { path: 'research', component: ResearchComponent },
   { path: 'pub-list', component: PublicationsComponent },

@@ -16,6 +16,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ResearchComponent } from './research/research.component';
 import { HomeComponent } from './home/home.component';
 import { ImagesComponent } from './images/images.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ImagesComponent } from './images/images.component';
     ContactComponent,
     ResearchComponent,
     HomeComponent,
-    ImagesComponent
+    ImagesComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
