@@ -1,7 +1,7 @@
 {
     "news": [
         {
-            "title": "Tittle example 2",
+            "title": "Lorem ipsum dolor",
             "date": "09.01.2024",
             "image": "../../assets/news_images/IMG_2925b.png",
             "content": [
@@ -13,7 +13,7 @@
             ]
         },
         {
-            "title": "Title example",
+            "title": "Lorem ipsum",
             "date": "08.01.2024",
             "image": "../../assets/news_images/IMG_2925b.png",
             "content": [
