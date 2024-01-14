@@ -66,16 +66,18 @@
             <h2>Scholarships, Awards, Recognitions</h2>
             <hr>
             <ul>
-                <li *ngFor="let schAwRc of schAwRcs">- {{schAwRc}}</li>
+                <li *ngFor="let schAwRc of schAwRcs.slice(0,7)">- {{schAwRc}}</li>
             </ul>
             <!-- <div class="page"><div class="page-number">page 1</div></div> -->
         </div>
     </div>
 </div>
 <div class="container">
-
     <div class="sheets">
         <div class="content">
+            <ul>
+                <li *ngFor="let schAwRc of schAwRcs.slice(7)">- {{schAwRc}}</li>
+            </ul>
 
             <h2>Research Trips</h2>
             <hr>
@@ -86,7 +88,12 @@
                     <div class="str">{{trip.str}}</div>
                 </li>
             </ul>
-
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="sheets">
+        <div class="content">
             <h2>Educational activities</h2>
             <hr>
             <ul>
@@ -97,12 +104,7 @@
                     <div class="str">{{eduAct.str}}</div>
                 </li>
             </ul>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="sheets">
-        <div class="content">
+
             <h2>Thesis Supervisor activity</h2>
             <hr>
             <ul>
@@ -118,14 +120,14 @@
             <h4>Refereeing activities:</h4>
             <div class="profActs">
                 <ul>
-                    <li *ngFor="let refAct of refActs.slice(0,12)">
+                    <li *ngFor="let refAct of refActs.slice(0,10)">
                         <div class="years" [ngStyle]="{textAlign: 'center', width: 'fit-content', minWidth: 'auto'}">
                             {{refAct.startDate}}</div>
                         <div class="str">{{refAct.str}}</div>
                     </li>
                 </ul>
                 <ul>
-                    <li *ngFor="let refAct of refActs.slice(12)">
+                    <li *ngFor="let refAct of refActs.slice(10,20)">
                         <div class="years" [ngStyle]="{textAlign: 'center', width: 'fit-content', minWidth: 'auto'}">
                             {{refAct.startDate}}</div>
                         <div class="str">{{refAct.str}}</div>
@@ -133,6 +135,22 @@
                 </ul>
             </div>
 
+            
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="sheets">
+        <div class="content">
+            <div class="profActs">
+                <ul>
+                    <li *ngFor="let refAct of refActs.slice(20)">
+                        <div class="years" [ngStyle]="{textAlign: 'center', width: 'fit-content', minWidth: 'auto'}">
+                            {{refAct.startDate}}</div>
+                        <div class="str">{{refAct.str}}</div>
+                    </li>
+                </ul>
+            </div>
             <h4>Professional memberships:</h4>
             <div class="profActs">
                 <ul>
@@ -143,11 +161,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
-    </div>
 
-    <div class="sheets">
-        <div class="content">
             <h2>Personal skills</h2>
             <hr>
             <div id="perSkills">

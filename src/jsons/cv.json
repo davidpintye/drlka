@@ -21,15 +21,20 @@
   ],
 
   "tSAs": [
-    { "startDate": "2016", "endDate": "2018", "str": "Vizi Balázs (BSc student) - Tőkés récék propagulum terjesztése - az endozoochór vízipáfrány-terjedés első bizonyítéka" },
-    { "startDate": "2016", "endDate": "2020", "str": "Urgyán Renáta (BSc student) - Tőkés récék propagulum terjesztése a Velencei tavon" },
-    { "startDate": "2020", "endDate": "", "str": "Urgyán Renáta (MSc student) - Tőkés récék propagulum terjesztésének szezonalitása" },
-    { "startDate": "2020", "endDate": "", "str": "Tóth Pál (PhD student) - Vízimadarak általi elsődleges és másodlagos magterjedés" },
-    { "startDate": "2020", "endDate": "", "str": "Koleszár Balázs (PhD student, co-supervisor) - Vízimadarak általi antibiotikum rezisztens baktériumok terjesztése" },
-    { "startDate": "2022", "endDate": "", "str": "Iciar Jimenez (PhD student, co-supervisor) - Seed disersal by waterbirds" }
+    { "startDate": "2016", "endDate": "2018", "str": "Balázs Vizi (BSc student) - Tőkés récék propagulum terjesztése - az endozoochór vízipáfrány-terjedés első bizonyítéka" },
+    { "startDate": "2016", "endDate": "2020", "str": "Renáta Urgyán (BSc student) - Tőkés récék propagulum terjesztése a Velencei tavon" },
+    { "startDate": "2020", "endDate": "", "str": "Renáta Urgyán (MSc student) - Tőkés récék propagulum terjesztésének szezonalitása" },
+    { "startDate": "2020", "endDate": "", "str": "Pál János Tóth (PhD student) - Vízimadarak általi elsődleges és másodlagos magterjedés" },
+    { "startDate": "2020", "endDate": "", "str": "Balázs Koleszár (PhD student, co-supervisor) - Vízimadarak általi antibiotikum rezisztens baktériumok terjesztése" },
+    { "startDate": "2022", "endDate": "", "str": "Iciar Jimenez (PhD student, co-supervisor) - Seed disersal by waterbirds" },
+    { "startDate": "2023", "endDate": "", "str": "Gábor Simay (PhD student) - Factors affecting the breeding success of waterbirds in wetlands" }
   ],
 
   "refActs": [
+    { "startDate": "2023", "endDate": "", "str": "Annals of Botany" },
+    { "startDate": "2023", "endDate": "", "str": "Journal of Applied Ecology" },
+    { "startDate": "2023", "endDate": "", "str": "Journal of Arid Enviroment" },
+    { "startDate": "2023", "endDate": "", "str": "Current Biology" },
     { "startDate": "2023", "endDate": "", "str": "Ecography" },
     { "startDate": "2023", "endDate": "", "str": "Biology Letters" },
     { "startDate": "2023", "endDate": "", "str": "New Zealand Journal of Marine and Freshwater Research" },
@@ -37,7 +42,7 @@
     { "startDate": "2023", "endDate": "", "str": "Royal Society Open Science" },
     { "startDate": "2022", "endDate": "", "str": "Biology Letters" },
     { "startDate": "2022", "endDate": "", "str": "Journal of Ecology" },
-    { "startDate": "2022", "endDate": "", "str": "Nature communications" },
+    { "startDate": "2022", "endDate": "", "str": "Nature Communications" },
     { "startDate": "2022", "endDate": "", "str": "Frontiers in Ecology and Evolution" },
     { "startDate": "2022", "endDate": "", "str": "Scientific Reports" },
     { "startDate": "2021", "endDate": "", "str": "Scientific Reports" },
@@ -69,10 +74,13 @@
 
   "winningProps": [
     { "startDate": "2021", "endDate": "2025", "str": "OTKA FK 138698: Hitchhiker's Guide to the waterbirds: seed dispersal effectiveness (PI)" },
-    { "startDate": "2021", "endDate": "2025", "str": "Ministerio de Ciencia e Innovación project (PID2020-112774GB-I00 / AEI / 10.13039/501100011033), Plant dispersal across Europe by WATERbird endoZOOchory: the role of waterbirds in the establishment of plant populations and connectivity between them.  " }
+    { "startDate": "2021", "endDate": "2025", "str": "Ministerio de Ciencia e Innovación project (PID2020-112774GB-I00 / AEI / 10.13039/501100011033), Plant dispersal across Europe by WATERbird endoZOOchory: the role of waterbirds in the establishment of plant populations and connectivity between them." },
+    { "startDate": "2024", "endDate": "2026", "str": "OTKA PD 145938: Effect of functional traits of phytoplankton on their waterbird-mediated dispersal network." }
   ],
 
   "schAwRcs": [
+    "Bárány Róbert Award 2023",
+    "Danubius Young Scientist Award 2023.",
     "EFFS Award for the best PhD Dissertation in Freshwater Sciences 2017-2018: 1st place.",
     "MTA Bolyai scholarship 2019.",
     "Bolyai+ scholarship 2019.",

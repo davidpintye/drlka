@@ -2,7 +2,87 @@
     "pubData": [
         {
             "year": 2023,
-            "publications": [
+            "publications": [                
+                         {                    
+                        "authors": [
+                        "Lovas-Kiss, Á.",
+                        "Martín‐Vélez, Á.",
+                        "Brides, K.",
+                        "Wilkinson, D. M.",
+                        "Griffin, L. R.",
+			"Green, A. J."
+                    ],
+                    "pubYear": 2023,
+                    "title": "Migratory geese allow plants to disperse to cooler latitudes across the ocean.",
+                    "journal": "Journal of Biogeography",
+                    "impactFactor": 3.9,
+                    "DOI": "10.1111/jbi.14674"
+                }, 
+			{                    
+                        "authors": [
+                        "Lovas-Kiss, Á.",
+                        "Navarro, M. J.",
+                        "Vincze, O.",
+                        "Löki, V.",
+                        "Urgyán, R.",
+			"Pallér-Kapusi, F.",
+			"van Leeuwen, C. H. A.",
+			"Green, A. J.",
+			"Lukács, B. A."
+                    ],
+                    "pubYear": 2023,
+                    "title": "Traits for transport: Alien wetland plants gain an advantage during endozoochorous seed dispersal by waterfowl.",
+                    "journal": "Freshwater Biology",
+                    "impactFactor": 2.7,
+                    "DOI": "10.1111/fwb.14154"
+                },
+			{                    
+                        "authors": [
+                        "Navarro-Ramos, M. J.",
+                        "van Leeuwen, C. H. A.",
+                        "Olsson, C.",
+                        "Elmberg, J.",
+                        "Månsson, J.",
+			"Martín-Vélez, V.",
+			"Lovas-Kiss, Á.",
+			"Green, A. J."
+                    ],
+                    "pubYear": 2023,
+                    "title": "Seed dispersal between aquatic and agricultural habitats by greylag geese.",
+                    "journal": "Agriculture, Ecosystems and Environment",
+                    "impactFactor": 6.6,
+                    "DOI": "10.1016/j.agee.2023.108741"
+                },
+			{                    
+                        "authors": [
+                        "Fekete, R.",
+                        "Vincze, O.",
+                        "Süveges, K.",
+                        "Bódis, J.",
+                        "Malkócs, T.",
+			"Lovas-Kiss, Á.",
+			"Molnár V., A."
+                    ],
+                    "pubYear": 2023,
+                    "title": "North-facing roadside slopes: anthropogenic climate microrefugia for orchids.",
+                    "journal": "Global Ecology and Conservation",
+                    "impactFactor": 4,
+                    "DOI": "10.1016/j.gecco.2023.e02642"
+                },
+		{                    
+                        "authors": [
+                        "Tóth, P.",
+                        "Green, A. J.",
+                        "Wilkinson, D. M.",
+                        "Brides, K.",
+                        "Lovas-Kiss, Á."
+                    ],
+                    "pubYear": 2023,
+                    "title": "Plant traits associated with the seed dispersal of ducks and geese in urban and natural habitats.",
+                    "journal": "Ecology and Evolution",
+                    "impactFactor": 2.6,
+                    "DOI": "10.1002/ece3.10677"
+                },
                 {
                     "authors": [
                         "Green, A. J.",
