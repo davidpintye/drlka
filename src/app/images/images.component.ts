@@ -20,7 +20,6 @@ export class ImagesComponent implements OnInit{
     "assets/home_images/IMG_2863.png",
     "assets/home_images/IMG_4651.png",
     "assets/home_images/IMG_6474.png",
-    "assets/home_images/IMG_2925.png",
     "assets/home_images/IMG_4682.png",
     "assets/home_images/IMG_6485.png",
     "assets/home_images/IMG_3414.png",
