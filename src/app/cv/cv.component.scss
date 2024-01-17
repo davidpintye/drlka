@@ -39,20 +39,29 @@
     height: fit-content;
     padding: 5px;
     color: white;
-
+    
+    ul {
+        li {
+            span {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    
     .head-container {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         width: 62mm;
-
+        
         #name {
             font-size: 22px;
             padding: 0 1rem;
             text-align: center;
         }
-
+        
         .profile-pic {
             margin: 10px 0;
             width: 150px;
@@ -63,7 +72,7 @@
             object-position: center;
         }
     }
-
+    
     ul {
         // width: 70mm;
         display: flex;
@@ -139,4 +148,43 @@ ul {
 
 #perSkills {
     margin-left: 5px;
+}
+
+
+@media (max-width: 826px) {
+    .sheets {
+        width: auto;
+        height: auto;
+        
+        .content {
+            padding: 20px;
+        }
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+
+        ul {
+            padding: 0;
+
+            li {
+                margin: 5px;
+
+                span {
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    .profActs {
+        flex-direction: column;
+        margin: 10px;
+
+        ul {
+            margin: 0;
+        }
+    }
+
 }
